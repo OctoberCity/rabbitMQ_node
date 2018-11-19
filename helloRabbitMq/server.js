@@ -14,7 +14,7 @@ openCon
            //消费对列中的东西
            return channel.consume(taskname,(message)=>{
            	if(message){
-           		console.log("receive the message is :==>",message.connent.toString());
+           		console.log("receive the message is :==>",message.content.toString());
            		channel.ack(message);
            	}
            });
