@@ -1,7 +1,7 @@
 // // 生产者
 const amqplib = require("amqplib");
 const openCon = amqplib.connect("amqp://127.0.0.1");
-const taskname = "tasks";
+const taskname = "taskss";
 
 openCon
 .then((connection)=>{
