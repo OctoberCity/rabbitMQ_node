@@ -8,8 +8,8 @@ openCon
 	return connection.createChannel();
 })
 .then((channel)=>{
-return ch.assertQueue(taskname).then((ok)=>{
-     return ch.sendToQueue(taskname,Buffer.from('hello world'))
+return channel.assertQueue(taskname).then((ok)=>{
+     return channel.sendToQueue(taskname,Buffer.from('hello world'))
   });
 })
 .catch(console.warn);
