@@ -7,7 +7,7 @@ const routerPar =process.argv.slice(2);
 
 
 
-function(err,channel){
+function error(err,channel){
 	console.error(err);
 	if(channel){process.exit(1);}
 }
@@ -22,12 +22,14 @@ function listConnection(err,connection){
   		const queue=ok.queue;
          routerPar.forEach((item)=>{
          	//绑定对列路由
-         	channel.bindQueue(queue,taskname,item);
+               console.log(item);	
+              channel.bindQueue(queue,taskname,item);
          });
          // 消费对列中特定路由消息
          channel.consume(queue,(msg)=>{
-         	console.log("路由是",msg.fields.routerKey);
-         	console.log("内容是"，msg.content);
+                    
+         	console.log("路由是",msg.fields.routingKey);
+         	console.log("内容是",msg.content.toString());
          },{noAck:true});
   	});
   });
