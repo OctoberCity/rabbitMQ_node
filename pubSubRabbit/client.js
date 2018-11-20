@@ -12,8 +12,8 @@ function error(err,channel){
 function listConnect(err,conn){
    	if(err) return  error(err);
   conn.createChannel((err,channel)=>{
-   	channel.assertExchange(taskname,'fanout',{durable:fasle});
-   	const msg=process.argv.sclice("2")[0];
+   	channel.assertExchange(taskname,'fanout',{durable:false});
+   	const msg=process.argv.slice("2")[0];
    	//原来的sendToQueue变成publish来代替
    	channel.publish(taskname,'',Buffer.from(msg));
    	console.log("发送完毕，关闭");
