@@ -30,9 +30,7 @@ koarouter.get("/buy/",async(ctx)=>{
         } 
         solve(body);
     });
-});
-    console.log(dd);
-    console.log("回应外部");
+}); 
     ctx.response.body= dd;
    });
  
