@@ -7,7 +7,7 @@ const koarouter =require("koa-router")();
 const request =require("request");
 const util =require("util");
 const app =new Koa();
-
+let   id =0;
 
 //暴露给外界的购买接口
 const goBuyUrl ="http://127.0.0.1:3000/buy";
@@ -18,19 +18,20 @@ app.use(koarouter.routes());
 koarouter.get("/buy/",async(ctx)=>{
 	//发送请求给goBuyUrl
     const res =ctx.res;
-
-	const dd= await new Promise((solve)=>{
+               id=id+1;
+    const dd= await new Promise((solve)=>{
         request({
 		method:'GET',
 		timeout:30000,
-        url:goBuyUrl+'?id='+ (new Date()).getTime(), 
+        url:goBuyUrl+'?id='+id , 
 	},(err,res,body)=>{
 		if(err){ 
 		 solve(err);
         } 
         solve(body);
     });
-}); 
+});
+    console.log(dd);
     ctx.response.body= dd;
    });
  
