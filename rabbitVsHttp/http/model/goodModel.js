@@ -12,14 +12,12 @@ const goodSchema =new Schema({
 //查询总数目
 goodSchema.statics.findAllNum=function(){
      return this.count({},(err,count)=>{
-         console.log(count);
      });
 }
 
 // 插入操作
 goodSchema.statics.insertGoodsByObj =function(obj){
    return this.create(obj,(err,doc)=>{
-       console.log(doc);
    });
 }
 module.exports = mongoose.model('goods',goodSchema);

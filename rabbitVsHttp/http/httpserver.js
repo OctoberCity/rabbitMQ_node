@@ -12,9 +12,9 @@ router.get("/",async(ctx)=>{
 }) 
 
 router.get("/buy",async(ctx)=>{
-    console.log(ctx.request);
     const id=ctx.request.query.id; 
 	const count = await goodmodel.findAllNum({});
+        console.log(count);
 	if(count>=100){
 	  return ctx.body="已经卖完";
 	}
