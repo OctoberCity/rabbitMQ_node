@@ -2,3 +2,4 @@
 
 ##### - promise 式的helloworld [连接](https://github.com/OctoberCity/rabbitMQ_node/tree/master/helloRabbitMq)
 ##### - callback 式的helloworld [连接](https://github.com/OctoberCity/rabbitMQ_node/tree/master/RMQVCallback)
+##### - 关于rabbit路由 [连接](https://github.com/OctoberCity/rabbitMQ_node/tree/master/routerRabbit)
