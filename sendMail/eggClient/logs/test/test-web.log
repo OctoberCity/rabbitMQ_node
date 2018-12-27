@@ -1,0 +1,71 @@
+2018-11-15 11:09:14,769 WARN 18724 [-/127.0.0.1/-/7ms POST /uploadForm] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-15 11:09:14,774 WARN 18724 [-/127.0.0.1/-/11ms POST /uploadForm] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\AllCode\eggWork\node_modules\_koa@2.6.2@koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\AllCode\eggWork\node_modules\_egg-security@2.4.0@egg-security\app\extend\context.js:148:17)
+    at csrf (D:\AllCode\eggWork\node_modules\_egg-security@2.4.0@egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (D:\AllCode\eggWork\node_modules\_koa-session@5.10.0@koa-session\index.js:41:13)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at overrideMethod (D:\AllCode\eggWork\node_modules\_koa-override@3.0.0@koa-override\index.js:38:12)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 18724
+hostname: SC-201804270139
+
+2018-11-15 11:15:34,428 WARN 18900 [-/127.0.0.1/-/7ms GET /uploadForm] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (D:\AllCode\eggWork\node_modules\_koa@2.6.2@koa\lib\context.js:97:11)
+    at Object.multipart (D:\AllCode\eggWork\node_modules\_egg-multipart@2.3.0@egg-multipart\app\extend\context.js:47:17)
+    at Object.getFileStream (D:\AllCode\eggWork\node_modules\_egg-multipart@2.3.0@egg-multipart\app\extend\context.js:73:24)
+    at uploadform (d:\AllCode\eggWork\app\middleware\uploadfile.js:5:35)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\AllCode\eggWork\node_modules\_egg-development@2.4.1@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (D:\AllCode\eggWork\node_modules\_egg-i18n@2.0.0@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "Content-Type must be multipart/*"
+pid: 18900
+hostname: SC-201804270139
+
+2018-11-15 11:17:26,798 WARN 21104 [-/127.0.0.1/-/7ms POST /uploadForm] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-11-15 11:17:26,802 WARN 21104 [-/127.0.0.1/-/11ms POST /uploadForm] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\AllCode\eggWork\node_modules\_koa@2.6.2@koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\AllCode\eggWork\node_modules\_egg-security@2.4.0@egg-security\app\extend\context.js:157:17)
+    at csrf (D:\AllCode\eggWork\node_modules\_egg-security@2.4.0@egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (D:\AllCode\eggWork\node_modules\_koa-session@5.10.0@koa-session\index.js:41:13)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at overrideMethod (D:\AllCode\eggWork\node_modules\_koa-override@3.0.0@koa-override\index.js:38:12)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 21104
+hostname: SC-201804270139
+
+2018-11-15 13:32:43,849 WARN 26852 [-/127.0.0.1/-/16ms POST /uploadForm] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (D:\AllCode\eggWork\node_modules\_koa@2.6.2@koa\lib\context.js:97:11)
+    at Object.getFileStream (D:\AllCode\eggWork\node_modules\_egg-multipart@2.3.0@egg-multipart\app\extend\context.js:79:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "Can't found upload file"
+pid: 26852
+hostname: SC-201804270139
+
+2018-11-15 16:34:45,852 WARN 28360 [-/127.0.0.1/-/8ms GET /backOfficegen] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (D:\AllCode\eggWork\node_modules\_koa@2.6.2@koa\lib\context.js:97:11)
+    at Object.multipart (D:\AllCode\eggWork\node_modules\_egg-multipart@2.3.0@egg-multipart\app\extend\context.js:47:17)
+    at uploadform (d:\AllCode\eggWork\app\middleware\uploadfile.js:13:28)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\AllCode\eggWork\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\AllCode\eggWork\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\AllCode\eggWork\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\AllCode\eggWork\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "Content-Type must be multipart/*"
+pid: 28360
+hostname: SC-201804270139
+

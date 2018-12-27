@@ -1,0 +1,282 @@
+{
+  "keys": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\config\\config.default.js",
+  "middleware": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\config\\config.default.js",
+  "security": {
+    "csrf": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\config\\config.default.js",
+    "domainWhiteList": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "value": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.local.js",
+      "maxAge": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "includeSubdomains": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "value": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "value": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "policy": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "checkAddress": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\config\\config.default.js",
+    "allowMethods": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\config\\config.default.js",
+    "credentials": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\config\\config.default.js"
+  },
+  "multipart": {
+    "whitelist": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\config\\config.default.js",
+    "fileSize": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\config\\config.default.js",
+    "fields": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\config\\config.default.js",
+    "mode": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "autoFields": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "files": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "tmpdir": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "dirs": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "queryField": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js",
+      "development": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-schedule@3.6.0@egg-schedule\\config\\config.default.js",
+      "file": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-schedule@3.6.0@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-schedule@3.6.0@egg-schedule\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "ignoreDirs": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "fastReady": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "overrideDefault": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "maxDays": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "dir": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "dynamic": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "preload": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "buffer": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "maxFiles": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "cache": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.local.js",
+    "defaultExtension": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "mapping": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js"
+  },
+  "env": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "name": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "proxy": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "protocolHeaders": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "ipHeaders": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "hostHeaders": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "version": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "description": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "private": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "dependencies": {
+      "amqplib": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "archiver": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "egg": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "egg-scripts": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "nodemailer": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "autod-egg": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "egg-bin": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "egg-ci": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "egg-mock": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "eslint": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "eslint-config-egg": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "webstorm-disable-index": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "stop": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "dev": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "debug": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "test": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "test-local": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "cov": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "lint": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "ci": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "autod": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "url": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    },
+    "author": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "license": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+  },
+  "baseDir": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "HOME": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "rundir": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "notFound": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "sitefile": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "middlewares": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "httpClient": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "encoding": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "formLimit": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "jsonLimit": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "strict": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "depth": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "parameterLimit": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "encoding": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "env": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "level": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "consoleLevel": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "outputJSON": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "buffer": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "appLogName": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "coreLogName": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "agentLogName": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "errorLogName": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "freeSocketTimeout": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "maxSockets": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "maxFreeSockets": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "freeSocketTimeout": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "maxSockets": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "maxFreeSockets": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "logging": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "workerStartTimeout": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "serverTimeout": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "port": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+      "hostname": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js",
+    "responseTimeout": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+  },
+  "onClientError": "d:\\AllCode\\rabbitMQ\\sendMail\\eggClient\\node_modules\\_egg@2.14.2@egg\\config\\config.default.js"
+}
